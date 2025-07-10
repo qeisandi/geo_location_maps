@@ -12,7 +12,7 @@ class GeoLocation extends StatefulWidget {
 
 class _GeoLocationState extends State<GeoLocation> {
   GoogleMapController? mapController;
-  LatLng _currentPosition = LatLng(-6.200000, 106.816666);
+  LatLng _currentPosition = LatLng(-6.210879, 106.812942);
   String _currentAdress = 'Alamat Tidak Ada';
   Marker? _marker;
 
@@ -75,8 +75,8 @@ class _GeoLocationState extends State<GeoLocation> {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          'Google Map + Geolocator + Geocoding',
-          style: TextStyle(fontWeight: FontWeight.bold, color: Colors.black),
+          'Google Map',
+          style: TextStyle(fontFamily: 'Gilroy', color: Colors.black),
         ),
       ),
       body: Stack(
